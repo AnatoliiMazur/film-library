@@ -1,0 +1,25 @@
+// Form
+.form-item
+  position relative
+
+  .error-box
+    position: absolute;
+    top: 3px
+    right: 5px
+    display flex
+
+    .error
+      font-size: 9px
+
+  .error
+    display none
+    color red
+
+  &.errorInput
+    .error
+      display block
+
+input
+  &.error
+    border-color #fc5c65
+    animation shake .3s

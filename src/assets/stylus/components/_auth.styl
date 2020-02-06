@@ -1,0 +1,17 @@
+// Auth
+.auth
+  display flex
+  flex-wrap wrap
+  justify-content space-between
+
+.auth__banner,
+.auth__form
+  width 50%
+  @media screen and (max-width: 768px)
+    width 100%
+    margin-bottom 30px
+    &:last-child
+      margin-bottom 0
+
+.auth__form
+  max-width 400px
